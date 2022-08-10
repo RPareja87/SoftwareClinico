@@ -62,4 +62,4 @@ jobs:
         if: always()
         env:
           SLACK_MESSAGE: 'Allure Report: ${{ secrets.VAULT_ADDR }}'
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_WEBHOOK: 'App Slack Webhook: ${{ secrets.SLACK_WEBHOOK }}'
